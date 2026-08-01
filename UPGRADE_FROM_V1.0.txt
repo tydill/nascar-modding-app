@@ -1,0 +1,9 @@
+UPGRADING TO v1.0.2
+
+1. Extract v1.0.2 into a new folder.
+2. Run START_APP.bat.
+3. Select the same NASCAR 15 installation folder used by the older app.
+
+The app reads the installed game files and automatically rediscovers supported added schemes, paints, and menu thumbnails. You do not need to copy old JSON files or import old app data for installed game mods.
+
+Export/Import App Settings is optional and carries interface preferences, favorites, saved source images, and edit history.

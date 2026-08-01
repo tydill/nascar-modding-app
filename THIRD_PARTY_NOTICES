@@ -1,0 +1,80 @@
+THIRD-PARTY NOTICES
+NASCAR Modding App v1.0.2
+
+This file lists third-party components redistributed with, or optionally used
+by, this application. The public package has been prepared around the statuses
+below. Nothing here is legal advice.
+
+===============================================================================
+1. texconv.exe -- DirectXTex / Texconv (Microsoft)
+===============================================================================
+Status in this package:  BUNDLED
+Upstream:                https://github.com/microsoft/DirectXTex
+License:                 MIT
+Used for:                encoding PNG uploads to DXT1/DXT5 texture payloads
+                         (app.py -> texconv_path(), _texconv())
+
+The binary in this package is an official Microsoft-signed Texconv build.
+MIT permits redistribution provided the copyright and permission notice are
+included. That notice follows.
+
+    Copyright (c) Microsoft Corporation.
+
+    Permission is hereby granted, free of charge, to any person obtaining a
+    copy of this software and associated documentation files (the "Software"),
+    to deal in the Software without restriction, including without limitation
+    the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+    DEALINGS IN THE SOFTWARE.
+
+ACTION: none beyond keeping this notice in the shipped package.
+
+===============================================================================
+2. FFmpeg -- optional managed audio tools
+===============================================================================
+Status in this package:  NOT BUNDLED
+Upstream:                https://ffmpeg.org
+Windows build provider:  https://github.com/BtbN/FFmpeg-Builds
+Used for:                audio preview, conversion, stock-format music replacement,
+                         and full-length music-bank rebuilds
+
+Audio Lab can install a Windows x64 LGPL shared FFmpeg build into audio_tools\bin.
+The installer downloads the matching checksum file, verifies the archive SHA-256,
+rejects GPL/nonfree build flags, confirms libmp3lame is available, and records the
+exact installed release and checksum in audio_tools\SOURCE_INFORMATION.txt.
+
+The app invokes ffmpeg.exe as a separate command-line process and does not link to
+FFmpeg libraries. See AUDIO_TOOLS_LICENSE_AND_SOURCE.txt for the complete component
+workflow and source information.
+
+===============================================================================
+3. Python runtime dependencies (not redistributed)
+===============================================================================
+Installed by the user via INSTALL_DEPENDENCIES.bat / requirements.txt:
+
+    flask    -- BSD-3-Clause
+    pillow   -- MIT-CMU
+    numpy    -- BSD-3-Clause
+
+These are fetched from PyPI at install time and are not redistributed in this
+package, so no notice is required here. Listed for completeness.
+
+===============================================================================
+4. Game content
+===============================================================================
+This app edits files belonging to NASCAR '14 / NASCAR '15. It ships no game
+assets, and none should ever be added to the release package -- see the
+extracted-asset patterns blocked in release_gate.py and cleanup.py.
+NASCAR and the games are the property of their respective rights holders; this
+is an unofficial, unaffiliated modding tool.
