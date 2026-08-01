@@ -1,0 +1,70 @@
+{
+  "schema": "nascar15-image-audit-policy-v1",
+  "release": "v1.0.1 Public Final \u2014 clean image audit baseline",
+  "audit_source": "IMAGE_AUDIT_20260728_151252.zip",
+  "audit_summary": {
+    "resources": 26943,
+    "layout_profiles": 347,
+    "quickbms_samples": 133,
+    "quickbms_success": 132,
+    "exact_metadata_matches": 11895
+  },
+  "writable_recipes": [
+    "tight_base",
+    "tight_mips",
+    "bms_padded_mips",
+    "row_padded_mips",
+    "physical_canvas",
+    "native_short"
+  ],
+  "dedicated_only": [
+    "LIVERY SD/HD via Paint Schemes",
+    "PAINTSCHEME via native clone",
+    "current-team 3DNUM via dedicated writer",
+    "SPRINTNUMS via specialized wrap writer"
+  ],
+  "blocked": [
+    "FMT_0x15/A8R8G8B8 until a validated writer exists",
+    "three SD-sized HDLIVERY_LENOVO wrappers",
+    "unresolved geometry",
+    "track/model region containers that do not parse as texture banks"
+  ],
+  "principles": [
+    "only exact mapped payload windows change",
+    "all actual mip rows regenerated",
+    "native row/mip padding preserved byte-for-byte",
+    "copy donors require identical native layout signatures",
+    "unknown layouts remain export/raw-only"
+  ],
+  "structural_coverage": {
+    "source": "IMAGE_AUDIT_20260728_151252.zip",
+    "total_resources": 26943,
+    "dxt_resources": 26497,
+    "structurally_writable_recipes": 24342,
+    "dedicated_or_blocked": 2601,
+    "packaged_index_rows": 1288,
+    "packaged_index_writable": 985,
+    "packaged_index_dedicated_or_blocked": 303,
+    "recipe_counts_full_audit": {
+      "bms_padded_mips": 18275,
+      "row_padded_mips": 3884,
+      "tight_base": 1927,
+      "tight_mips": 249,
+      "physical_canvas": 7,
+      "dedicated_livery": 308,
+      "paint_scheme_native_clone": 118,
+      "driver_3dnum_dedicated": 43,
+      "nonstandard_hd_livery": 6,
+      "unresolved": 446,
+      "ambiguous_payload": 1680
+    },
+    "interpretation": "Structural write eligibility only. Newly exposed families remain Guarded Replace until representative in-game validation.",
+    "safety_guards": [
+      "native mip count is authoritative when present",
+      "no repeated 1x1 mip inference",
+      "physical canvas limited to validated MAP_* next-power-of-two crops",
+      "payload overlap blocks writing",
+      "Copy From requires identical native layout and semantic class"
+    ]
+  }
+}

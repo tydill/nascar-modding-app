@@ -1,0 +1,5 @@
+# Python 3.10 or newer is required.
+# START_APP.bat installs these automatically on first run.
+flask>=2.2
+pillow>=9.0
+numpy>=1.22

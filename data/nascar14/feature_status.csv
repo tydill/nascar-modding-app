@@ -1,0 +1,11 @@
+feature,status,evidence_or_remaining_work
+Audio,Mapped,31 FSB5 banks / 752 samples parsed; all banks passed structural validation and are reported editable. Needs one in-game replace/restore test.
+Graphics,Mapped core,"SPRINTNUMS2014, team logo, base/custom thumbnails, menu cards, and all 23 team TD banks parse. Raw clone/export/restore can be shared; PNG replacement families still need game tests."
+Ratings,Mapped,82 AIRACEDRIVERPROFILE records and exact LOAD_CONST offsets exported in ai_profiles_nascar14.csv.
+Race settings,Mapped,RACEDATA_c schema and isolated one-record RaceLaps repointing passed dry run.
+Schedule,Mapped with N14 rule,2014 series UID 22538. The app must deduplicate same-order fake variants; report exports a deterministic 36-race selector.
+AI database controls,Mapped,"24 AIRACINGTRACKCONFIG records, including pit strategy, pack behavior, throttle-lift, bump-draft and catchup fields."
+Track SCR physics,Needs raw archives,"Indexes map the track containers in ARCHIVE4–6, but raw ARCHIVE4.AR, ARCHIVE5.AR and ARCHIVE6.AR are still required to validate SCR payloads and writes."
+Driver/team editing,Mapped structurally,"100 drivers, 46 teams, 132 driver configs, 238 liveries, roster/team/TD relationships exported. Writes still require staged in-game tests."
+Race paint assignments,Mapped structurally,NASCAR 14 EVENTINIT uses the same current-race UID selector; named-event dry-run probe passed after the NAS3 path marker adjustment.
+New paint slots,Mapped to implementation edge,"15-field LIVERIE constructor, stock ApplyPatch precedent, free UID pool, split SD/HD route, and TD families are known. Still needs split-archive append code plus first in-game test."

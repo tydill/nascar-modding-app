@@ -1,0 +1,189 @@
+NASCAR MODDING APP v1.0 - TROUBLESHOOTING
+=========================================
+
+Start here: run START_APP.bat. It finds Python, installs the packages it needs on
+first run, and leaves its window open with an explanation if anything goes wrong.
+You do not need to run INSTALL_DEPENDENCIES.bat first.
+
+If something fails, the black window stays open and the last few lines say why.
+Those lines are the useful part - please include them in any bug report.
+
+
+-------------------------------------------------------------------------------
+"Python was not found on this PC"
+-------------------------------------------------------------------------------
+1. Go to  https://www.python.org/downloads/
+2. Download the latest Windows installer.
+3. On the FIRST setup screen, tick "Add python.exe to PATH". This is the step
+   people miss, and nothing works without it.
+4. Finish the installer, then run START_APP.bat again.
+
+Do NOT use the Python from the Microsoft Store. It runs in a sandbox that cannot
+reach game folders properly. If you already installed that one, install from
+python.org as well - the launcher prefers the real one automatically.
+
+
+-------------------------------------------------------------------------------
+"Python 3.x is too old"
+-------------------------------------------------------------------------------
+Python 3.10 or newer is required. Install a current version from python.org
+(ticking "Add python.exe to PATH"). You do not need to uninstall the old one.
+
+
+-------------------------------------------------------------------------------
+The packages will not install
+-------------------------------------------------------------------------------
+The app needs three packages: Flask, Pillow and NumPy. If installing them fails:
+
+  - Check you have an internet connection. The first run needs one; after that
+    the app works offline.
+  - Company, school and some guest networks block pip. Try a home connection or
+    a phone hotspot once, then it is installed for good.
+  - Antivirus sometimes blocks pip downloads. Allow it, or pause protection for
+    the one minute the install takes.
+  - To see the real error, open this folder in a terminal and run:
+        py -m pip install -r requirements.txt
+
+
+-------------------------------------------------------------------------------
+The window opens and closes instantly
+-------------------------------------------------------------------------------
+That should no longer happen - START_APP.bat pauses on every failure. If it
+still does, you are probably running app.py by double-clicking it directly.
+Use START_APP.bat instead.
+
+
+-------------------------------------------------------------------------------
+"The app is already running"
+-------------------------------------------------------------------------------
+You started it twice. The second copy notices the first and just opens the
+browser tab. Nothing is wrong. To stop the app, close the black window.
+
+If port 8151 is taken by unrelated software, the app moves to 8152 (and up to
+8162) and prints the address it actually used.
+
+
+-------------------------------------------------------------------------------
+The browser tab does not open
+-------------------------------------------------------------------------------
+Open it yourself:  http://127.0.0.1:8151
+If the window printed a different port, use that number instead.
+You can turn the automatic tab off or on in Settings.
+
+
+-------------------------------------------------------------------------------
+"Choose NASCAR 15 or NASCAR '14 before using the app"
+-------------------------------------------------------------------------------
+Normal on a first run: pick your game on the selector screen. The app ships with
+no saved paths on purpose, so it never points at someone else's install.
+
+
+-------------------------------------------------------------------------------
+"No game archives were found in ...\data"
+-------------------------------------------------------------------------------
+The game folder is set to the wrong level. Point it at the folder that CONTAINS
+the data folder - the one with the game .exe in it - not at the data folder
+itself, and not at a Steam library root.
+
+The app is looking for  <game folder>\data\ARCHIVE0.AR  and  cdfiles.dat.
+If those are missing entirely, verify the game files through Steam.
+
+If it names specific missing archives (ARCHIVE1, ARCHIVE2 and so on), the
+install is incomplete - verify the game files.
+
+
+-------------------------------------------------------------------------------
+Audio: "Audio conversion tools are not installed"
+-------------------------------------------------------------------------------
+Open Audio and click Install LGPL audio tools. The app downloads a Windows LGPL
+FFmpeg build, verifies its release SHA-256 and license configuration, and installs
+it under audio_tools\bin without changing your system PATH.
+
+You may also place your own ffmpeg.exe beside app.py or on PATH. The Audio page
+shows which converter is active.
+
+The managed download is optional. Without it, raw export and already-matched
+streams may still work, but ordinary WAV/MP3 replacement and full-length music
+conversion require FFmpeg.
+
+See AUDIO_TOOLS_LICENSE_AND_SOURCE.txt and THIRD_PARTY_NOTICES.txt.
+
+-------------------------------------------------------------------------------
+Windows SmartScreen or antivirus warnings
+-------------------------------------------------------------------------------
+This app is not code-signed, so Windows may warn about the .bat files. Choose
+"More info" then "Run anyway", or unblock the zip before extracting
+(right-click the zip, Properties, tick Unblock).
+
+texconv.exe is Microsoft's official texture tool and is signed by Microsoft.
+
+
+-------------------------------------------------------------------------------
+Put the folder somewhere simple
+-------------------------------------------------------------------------------
+Extract to something like  C:\NascarApp  rather than a OneDrive-synced Desktop
+or Documents folder. OneDrive can lock files mid-write, and very long paths can
+fail. This matters because the app writes to your game archives.
+
+
+-------------------------------------------------------------------------------
+Always back up first
+-------------------------------------------------------------------------------
+The app makes its own backup of an archive before its first change, but keep a
+copy of your game's data folder somewhere safe before a big session. Verifying
+files through Steam also restores originals.
+
+
+-------------------------------------------------------------------------------
+Does it need internet?
+-------------------------------------------------------------------------------
+The first run may need internet to install Flask, Pillow and NumPy. The optional
+Install LGPL audio tools button also downloads and verifies the audio converter.
+
+Normal modding, scanning, backup, restore and game-file editing run locally. The
+app has no telemetry, online account or automatic update check. Its interface is
+served by your own PC at http://127.0.0.1:8151.
+
+For an offline dependency install, download the Python wheels on another PC:
+    py -m pip download -r requirements.txt -d packages
+then install them on the offline PC:
+    py -m pip install --no-index --find-links packages -r requirements.txt
+
+-------------------------------------------------------------------------------
+Updating to a newer version - will it reset my mods?
+-------------------------------------------------------------------------------
+No. Your mods are written into the game's own files, and this app's safety
+backups (ARCHIVE0.AR.n15mod.bak and similar) sit beside them in the GAME folder.
+Installing a newer version of the app does not touch either one.
+
+What does live in the APP folder is the app's record of your work: which paint
+slots it created, team editor history, and your saved paint images. If you
+extract a new version into a fresh folder, that record does not come along, so
+paint slots you created are still in the game but stop being listed in the app.
+
+So before you update:
+  1. Settings -> Updating to a Newer Version -> "Save My App Data"
+  2. Extract the new version to its own folder
+  3. Settings -> "Restore App Data" and pick that zip
+  4. Restart the app
+
+If you would rather copy files by hand, these are the ones that matter:
+  config.json, game_selector.json, extra_schemes_v1.json,
+  team_manager_state.json, repoint_history.json, last_whole_mod_repair.json,
+  and the schemes, team_asset_rollback_v1 and profiles folders.
+
+Restoring keeps whatever was already in the folder in a dated
+app_data_replaced_*.zip first, so a mistake is recoverable.
+
+
+-------------------------------------------------------------------------------
+Reporting a problem
+-------------------------------------------------------------------------------
+Include:
+  1. The last 10 lines from the black START_APP window. Failed requests now
+     print their reason, for example:
+         -> GET /api/extra_schemes/catalog 400: No game archives were found in ...
+  2. Which game you picked, and which tab you were on.
+  3. What you clicked and what you expected.
+  4. Optional but ideal: Settings -> Create Help Package, which bundles a
+     diagnostics report with no personal paths.

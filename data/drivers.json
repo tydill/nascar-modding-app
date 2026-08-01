@@ -1,0 +1,754 @@
+[
+  {
+    "base": "2015_ALLMENDINGER",
+    "display_name": "AJ Allmendinger",
+    "name_candidates": [
+      "AJ Allmendinger",
+      "A.J. Allmendinger",
+      "A J Allmendinger"
+    ],
+    "number": "47",
+    "slot": "LIVERY_15_47_AJ_ALLMENDINGER_PRIMARY.ARC",
+    "profile_id": 3255,
+    "handle": "AJDinger",
+    "config_uid": 25182,
+    "driver_uid": 1083,
+    "driver_token": "S_DRIVER_AJ_ALMENDINGER",
+    "team_uid": 1326,
+    "db_livery_script": "15_47_AJ_ALLMENDINGER_PRIMARY"
+  },
+  {
+    "base": "2015_ALMIROLA",
+    "display_name": "Aric Almirola",
+    "name_candidates": [
+      "Aric Almirola"
+    ],
+    "number": "43",
+    "slot": "LIVERY_15_43_ARIC_ALMIROLA_PRIMARY.ARC",
+    "profile_id": 3355,
+    "handle": "Aric_Almirola",
+    "config_uid": 25135,
+    "driver_uid": 1084,
+    "driver_token": "S_DRIVER_A_ALMIROLA",
+    "team_uid": 1325,
+    "db_livery_script": "15_43_ARIC_ALMIROLA_PRIMARY"
+  },
+  {
+    "base": "2015_DILLON",
+    "display_name": "Austin Dillon",
+    "name_candidates": [
+      "Austin Dillon"
+    ],
+    "number": "3",
+    "slot": "LIVERY_15_3_AUSTIN_DILLON_PRIMARY.ARC",
+    "profile_id": 18354,
+    "handle": "AustinDillon3",
+    "config_uid": 25142,
+    "driver_uid": 9663,
+    "driver_token": "S_DRIVER_A_DILLON",
+    "team_uid": 1333,
+    "db_livery_script": "15_3_AUSTIN_DILLON_PRIMARY"
+  },
+  {
+    "base": "2015_LABONTE",
+    "display_name": "Bobby Labonte",
+    "name_candidates": [
+      "Bobby Labonte"
+    ],
+    "number": "32",
+    "slot": "LIVERY_15_32_BOBBY_LABONTE_PRIMARY.ARC",
+    "profile_id": 3375,
+    "handle": "Bobby_Labonte",
+    "config_uid": 25429,
+    "driver_uid": 1116,
+    "driver_token": "S_DRIVER_B_LABONTE",
+    "team_uid": 25430,
+    "db_livery_script": "15_32_BOBBY_LABONTE_PRIMARY"
+  },
+  {
+    "base": "2015_KESELOWSKI",
+    "display_name": "Brad Keselowski",
+    "name_candidates": [
+      "Brad Keselowski"
+    ],
+    "number": "2",
+    "slot": "LIVERY_15_2_BRAD_KESELOWSKI_PRIMARY.ARC",
+    "profile_id": 3237,
+    "handle": "Keselowski",
+    "config_uid": 25153,
+    "driver_uid": 1115,
+    "driver_token": "S_DRIVER_B_KESELOWSKI",
+    "team_uid": 1336,
+    "db_livery_script": "15_2_BRAD_KESELOWSKI_PRIMARY"
+  },
+  {
+    "base": "2015_VICKERS",
+    "display_name": "Brian Vickers",
+    "name_candidates": [
+      "Brian Vickers"
+    ],
+    "number": "55",
+    "slot": "LIVERY_15_55_BRIAN_VICKERS_PRIMARY.ARC",
+    "profile_id": 3379,
+    "handle": "BrianLVickers",
+    "config_uid": 25150,
+    "driver_uid": 1139,
+    "driver_token": "S_DRIVER_B_VICKERS",
+    "team_uid": 1354,
+    "db_livery_script": "14_55_VICKERS_PRIMARY"
+  },
+  {
+    "base": "2015_EDWARDS",
+    "display_name": "Carl Edwards",
+    "name_candidates": [
+      "Carl Edwards"
+    ],
+    "number": "19",
+    "slot": "LIVERY_15_19_CARL_EDWARDS_PRIMARY.ARC",
+    "profile_id": 3267,
+    "handle": "",
+    "config_uid": 25173,
+    "driver_uid": 1101,
+    "driver_token": "S_DRIVER_C_EDWARDS",
+    "team_uid": 1335,
+    "db_livery_script": "15_19_CARL_EDWARDS_PRIMARY"
+  },
+  {
+    "base": "2015_MEARS",
+    "display_name": "Casey Mears",
+    "name_candidates": [
+      "Casey Mears"
+    ],
+    "number": "13",
+    "slot": "LIVERY_15_13_CASEY_MEARS_PRIMARY.ARC",
+    "profile_id": 3365,
+    "handle": "CJMearsGang",
+    "config_uid": 25216,
+    "driver_uid": 1124,
+    "driver_token": "S_DRIVER_C_MEARS",
+    "team_uid": 1352,
+    "db_livery_script": "15_13_CASEY_MEARS_PRIMARY"
+  },
+  {
+    "base": "2015_ELLIOTT",
+    "display_name": "Chase Elliott",
+    "name_candidates": [
+      "Chase Elliott"
+    ],
+    "number": "25",
+    "slot": "LIVERY_15_25_CHASE_ELLIOTT_PRIMARY.ARC",
+    "profile_id": 23216,
+    "handle": "ChaseElliott",
+    "config_uid": 25179,
+    "driver_uid": 23022,
+    "driver_token": "S_DRIVER_C_ELLIOTT",
+    "team_uid": 1340,
+    "db_livery_script": "15_25_CHASE_ELLIOTT_PRIMARY"
+  },
+  {
+    "base": "2015_BOWYER",
+    "display_name": "Clint Bowyer",
+    "name_candidates": [
+      "Clint Bowyer"
+    ],
+    "number": "15",
+    "slot": "LIVERY_15_15_CLINT_BOWYER_PRIMARY.ARC",
+    "profile_id": 3248,
+    "handle": "ClintBowyer",
+    "config_uid": 25172,
+    "driver_uid": 1092,
+    "driver_token": "S_DRIVER_C_BOWYER",
+    "team_uid": 1354,
+    "db_livery_script": "14_15_BOWYER_PRIMARY"
+  },
+  {
+    "base": "2015_WHITT",
+    "display_name": "Cole Whitt",
+    "name_candidates": [
+      "Cole Whitt"
+    ],
+    "number": "35",
+    "slot": "LIVERY_15_35_COLE_WHITT_PRIMARY.ARC",
+    "profile_id": 25462,
+    "handle": "ColeWhitt",
+    "config_uid": 25134,
+    "driver_uid": 9665,
+    "driver_token": "S_DRIVER_C_WHITT",
+    "team_uid": 1327,
+    "db_livery_script": "15_35_COLE_WHITT_PRIMARY"
+  },
+  {
+    "base": "2015_EARNHARDT",
+    "display_name": "Dale Earnhardt Jr.",
+    "name_candidates": [
+      "Dale Earnhardt Jr.",
+      "Dale Earnhardt Jr",
+      "Dale Earnhardt"
+    ],
+    "number": "88",
+    "slot": "LIVERY_15_88_DALE_EARNHARDT_JR_PRIMARY.ARC",
+    "profile_id": 3265,
+    "handle": "DaleJr",
+    "config_uid": 25167,
+    "driver_uid": 1100,
+    "driver_token": "S_DRIVER_D_EARNHARDT_JR",
+    "team_uid": 1340,
+    "db_livery_script": "15_88_DALE_EARNHARDT_JR_PRIMARY"
+  },
+  {
+    "base": "2015_PATRICK",
+    "display_name": "Danica Patrick",
+    "name_candidates": [
+      "Danica Patrick"
+    ],
+    "number": "10",
+    "slot": "LIVERY_15_10_DANICA_PATRICK_PRIMARY.ARC",
+    "profile_id": 6922,
+    "handle": "DanicaPatrick",
+    "config_uid": 25139,
+    "driver_uid": 5758,
+    "driver_token": "S_DRIVER_D_PATRICK",
+    "team_uid": 1351,
+    "db_livery_script": "15_10_DANICA_PATRICK_PRIMARY"
+  },
+  {
+    "base": "2015_WALLACE",
+    "display_name": "Darrell Wallace Jr.",
+    "name_candidates": [
+      "Darrell Wallace Jr.",
+      "Darrell Wallace Jr",
+      "Darrell Wallace",
+      "Bubba Wallace",
+      "Bubba Wallace Jr."
+    ],
+    "number": "6",
+    "slot": "LIVERY_15_6_DARRELL_WALLACE_PRIMARY.ARC",
+    "profile_id": 23215,
+    "handle": "BubbaWallace",
+    "config_uid": 25586,
+    "driver_uid": 23147,
+    "driver_token": "S_DRIVER_D_WALLACE",
+    "team_uid": 1331,
+    "db_livery_script": "15_6_DARRELL_WALLACE_PRIMARY"
+  },
+  {
+    "base": "2015_GILLILAND",
+    "display_name": "David Gilliland",
+    "name_candidates": [
+      "David Gilliland"
+    ],
+    "number": "38",
+    "slot": "LIVERY_15_38_DAVID_GILLILAND_PRIMARY.ARC",
+    "profile_id": 3252,
+    "handle": "DavidGilliland",
+    "config_uid": 25176,
+    "driver_uid": 1104,
+    "driver_token": "S_DRIVER_D_GILLILAND",
+    "team_uid": 1327,
+    "db_livery_script": "15_38_DAVID_GILLILAND_PRIMARY"
+  },
+  {
+    "base": "2015_RAGAN",
+    "display_name": "David Ragan",
+    "name_candidates": [
+      "David Ragan"
+    ],
+    "number": "34",
+    "slot": "LIVERY_15_34_DAVID_RAGAN_PRIMARY.ARC",
+    "profile_id": 3233,
+    "handle": "DavidRagan",
+    "config_uid": 25246,
+    "driver_uid": 1129,
+    "driver_token": "S_DRIVER_D_RAGAN",
+    "team_uid": 1327,
+    "db_livery_script": "15_34_DAVID_RAGAN_PRIMARY"
+  },
+  {
+    "base": "2015_HAMLIN",
+    "display_name": "Denny Hamlin",
+    "name_candidates": [
+      "Denny Hamlin"
+    ],
+    "number": "11",
+    "slot": "LIVERY_15_11_DENNY_HAMLIN_PRIMARY.ARC",
+    "profile_id": 3236,
+    "handle": "DennyHamlin",
+    "config_uid": 25202,
+    "driver_uid": 1107,
+    "driver_token": "S_DRIVER_D_HAMLIN",
+    "team_uid": 1335,
+    "db_livery_script": "15_11_DENNY_HAMLIN_PRIMARY"
+  },
+  {
+    "base": "2015_JONES",
+    "display_name": "Erik Jones",
+    "name_candidates": [
+      "Erik Jones"
+    ],
+    "number": "20",
+    "slot": "LIVERY_15_20_ERIK_JONES_PRIMARY.ARC",
+    "profile_id": 25463,
+    "handle": "Erik_Jones",
+    "config_uid": 25455,
+    "driver_uid": 25442,
+    "driver_token": "S_DRIVER_E_JONES",
+    "team_uid": 1335,
+    "db_livery_script": "15_20_ERIK_JONES_PRIMARY"
+  },
+  {
+    "base": "2015_BIFFLE",
+    "display_name": "Greg Biffle",
+    "name_candidates": [
+      "Greg Biffle"
+    ],
+    "number": "16",
+    "slot": "LIVERY_15_16_GREG_BIFFLE_PRIMARY.ARC",
+    "profile_id": 3240,
+    "handle": "GBiffle",
+    "config_uid": 25132,
+    "driver_uid": 1090,
+    "driver_token": "S_DRIVER_G_BIFFLE",
+    "team_uid": 1331,
+    "db_livery_script": "15_16_GREG_BIFFLE_PRIMARY"
+  },
+  {
+    "base": "2015_YELEY",
+    "display_name": "J.J. Yeley",
+    "name_candidates": [
+      "J.J. Yeley",
+      "JJ Yeley",
+      "J. J. Yeley"
+    ],
+    "number": "23",
+    "slot": "LIVERY_15_23_JJ_YELEY_PRIMARY.ARC",
+    "profile_id": 3370,
+    "handle": "JJYeley1",
+    "config_uid": 25241,
+    "driver_uid": 1142,
+    "driver_token": "S_DRIVER_JJ_YELEY",
+    "team_uid": 10518,
+    "db_livery_script": "15_23_JJ_YELEY_PRIMARY"
+  },
+  {
+    "base": "2015_MCMURRAY",
+    "display_name": "Jamie McMurray",
+    "name_candidates": [
+      "Jamie McMurray"
+    ],
+    "number": "1",
+    "slot": "LIVERY_15_1_JAMIE_MCMURRAY_PRIMARY.ARC",
+    "profile_id": 3230,
+    "handle": "JamieMcMurray",
+    "config_uid": 25144,
+    "driver_uid": 1121,
+    "driver_token": "S_DRIVER_J_MCMURRAY",
+    "team_uid": 1349,
+    "db_livery_script": "15_1_JAMIE_MCMURRAY_PRIMARY"
+  },
+  {
+    "base": "2015_BURTONJEB",
+    "display_name": "Jeb Burton",
+    "name_candidates": [
+      "Jeb Burton"
+    ],
+    "number": "26",
+    "slot": "LIVERY_15_26_JEB_BURTON_PRIMARY.ARC",
+    "profile_id": 25461,
+    "handle": "JebBurtonRacing",
+    "config_uid": 25453,
+    "driver_uid": 25447,
+    "driver_token": "S_DRIVER_JEB_BURTON",
+    "team_uid": 10518,
+    "db_livery_script": "15_26_JEB_BURTON_PRIMARY"
+  },
+  {
+    "base": "2015_GORDONJEFF",
+    "display_name": "Jeff Gordon",
+    "name_candidates": [
+      "Jeff Gordon"
+    ],
+    "number": "24",
+    "slot": "LIVERY_15_24_JEFF_GORDON_PRIMARY.ARC",
+    "profile_id": 3245,
+    "handle": "JeffGordonWeb",
+    "config_uid": 25203,
+    "driver_uid": 1105,
+    "driver_token": "S_DRIVER_J_GORDON",
+    "team_uid": 1340,
+    "db_livery_script": "15_24_JEFF_GORDON_PRIMARY"
+  },
+  {
+    "base": "2015_JOHNSON",
+    "display_name": "Jimmie Johnson",
+    "name_candidates": [
+      "Jimmie Johnson"
+    ],
+    "number": "48",
+    "slot": "LIVERY_15_48_JIMMIE_JOHNSON_PRIMARY.ARC",
+    "profile_id": 3257,
+    "handle": "JimmieJohnson",
+    "config_uid": 25130,
+    "driver_uid": 1111,
+    "driver_token": "S_DRIVER_J_JOHNSON",
+    "team_uid": 1340,
+    "db_livery_script": "15_48_JIMMIE_JOHNSON_PRIMARY"
+  },
+  {
+    "base": "2015_LOGANO",
+    "display_name": "Joey Logano",
+    "name_candidates": [
+      "Joey Logano"
+    ],
+    "number": "22",
+    "slot": "LIVERY_15_22_JOEY_LOGANO_PRIMARY.ARC",
+    "profile_id": 3244,
+    "handle": "JoeyLogano",
+    "config_uid": 25128,
+    "driver_uid": 1117,
+    "driver_token": "S_DRIVER_J_LOGANO",
+    "team_uid": 1336,
+    "db_livery_script": "15_22_JOEY_LOGANO_PRIMARY"
+  },
+  {
+    "base": "2015_WISE",
+    "display_name": "Josh Wise",
+    "name_candidates": [
+      "Josh Wise"
+    ],
+    "number": "98",
+    "slot": "LIVERY_15_98_JOSH_WISE_PRIMARY.ARC",
+    "profile_id": 12392,
+    "handle": "Josh_Wise",
+    "config_uid": 25131,
+    "driver_uid": 7174,
+    "driver_token": "S_DRIVER_J_WISE",
+    "team_uid": 11444,
+    "db_livery_script": "15_98_JOSH_WISE_PRIMARY"
+  },
+  {
+    "base": "2015_ALLGAIER",
+    "display_name": "Justin Allgaier",
+    "name_candidates": [
+      "Justin Allgaier"
+    ],
+    "number": "51",
+    "slot": "LIVERY_15_51_JUSTIN_ALLGAIER_PRIMARY.ARC",
+    "profile_id": 25467,
+    "handle": "J_Allgaier",
+    "config_uid": 25201,
+    "driver_uid": 22949,
+    "driver_token": "S_DRIVER_J_ALLGAIER",
+    "team_uid": 25381,
+    "db_livery_script": "15_51_JUSTIN_ALLGAIER_PRIMARY"
+  },
+  {
+    "base": "2015_KAHNE",
+    "display_name": "Kasey Kahne",
+    "name_candidates": [
+      "Kasey Kahne"
+    ],
+    "number": "5",
+    "slot": "LIVERY_15_5_KASEY_KAHNE_PRIMARY.ARC",
+    "profile_id": 3235,
+    "handle": "KaseyKahne",
+    "config_uid": 25190,
+    "driver_uid": 1113,
+    "driver_token": "S_DRIVER_K_KAHNE",
+    "team_uid": 1340,
+    "db_livery_script": "15_5_KASEY_KAHNE_PRIMARY"
+  },
+  {
+    "base": "2015_HARVICK",
+    "display_name": "Kevin Harvick",
+    "name_candidates": [
+      "Kevin Harvick"
+    ],
+    "number": "4",
+    "slot": "LIVERY_15_4_KEVIN_HARVICK_PRIMARY.ARC",
+    "profile_id": 3246,
+    "handle": "KevinHarvick",
+    "config_uid": 25244,
+    "driver_uid": 1108,
+    "driver_token": "S_DRIVER_K_HARVICK",
+    "team_uid": 1351,
+    "db_livery_script": "15_4_KEVIN_HARVICK_PRIMARY"
+  },
+  {
+    "base": "2015_BUSCHKURT",
+    "display_name": "Kurt Busch",
+    "name_candidates": [
+      "Kurt Busch"
+    ],
+    "number": "41",
+    "slot": "LIVERY_15_41_KURT_BUSCH_PRIMARY.ARC",
+    "profile_id": 3231,
+    "handle": "KurtBusch",
+    "config_uid": 25148,
+    "driver_uid": 1095,
+    "driver_token": "S_DRIVER_K_BUSCH_01",
+    "team_uid": 1351,
+    "db_livery_script": "15_41_KURT_BUSCH_PRIMARY"
+  },
+  {
+    "base": "2015_BUSCHKYLE",
+    "display_name": "Kyle Busch",
+    "name_candidates": [
+      "Kyle Busch"
+    ],
+    "number": "18",
+    "slot": "LIVERY_15_18_KYLE_BUSCH_PRIMARY.ARC",
+    "profile_id": 3242,
+    "handle": "KyleBusch",
+    "config_uid": 25147,
+    "driver_uid": 1096,
+    "driver_token": "S_DRIVER_K_BUSCH_02",
+    "team_uid": 1335,
+    "db_livery_script": "15_18_KYLE_BUSCH_PRIMARY"
+  },
+  {
+    "base": "2015_LARSON",
+    "display_name": "Kyle Larson",
+    "name_candidates": [
+      "Kyle Larson"
+    ],
+    "number": "42",
+    "slot": "LIVERY_15_42_KYLE_LARSON_PRIMARY.ARC",
+    "profile_id": 23214,
+    "handle": "KyleLarsonRacin",
+    "config_uid": 25178,
+    "driver_uid": 22676,
+    "driver_token": "S_DRIVER_K_LARSON",
+    "team_uid": 1349,
+    "db_livery_script": "15_42_KYLE_LARSON_PRIMARY"
+  },
+  {
+    "base": "2015_TRUEXMARTIN",
+    "display_name": "Martin Truex Jr.",
+    "name_candidates": [
+      "Martin Truex Jr.",
+      "Martin Truex Jr",
+      "Martin Truex"
+    ],
+    "number": "78",
+    "slot": "LIVERY_15_78_MARTIN_TRUEX_JR_PRIMARY.ARC",
+    "profile_id": 3259,
+    "handle": "MartinTruex_Jr",
+    "config_uid": 25137,
+    "driver_uid": 1138,
+    "driver_token": "S_DRIVER_M_TRUEX_JR",
+    "team_uid": 1355,
+    "db_livery_script": "15_78_MARTIN_TRUEX_JR_PRIMARY"
+  },
+  {
+    "base": "2015_KENSETH",
+    "display_name": "Matt Kenseth",
+    "name_candidates": [
+      "Matt Kenseth"
+    ],
+    "number": "20",
+    "slot": "LIVERY_15_20_MATT_KENSETH_SECONDARY.ARC",
+    "profile_id": 3241,
+    "handle": "MattKenseth",
+    "config_uid": 25198,
+    "driver_uid": 1114,
+    "driver_token": "S_DRIVER_M_KENSETH",
+    "team_uid": 1335,
+    "db_livery_script": "15_20_MATT_KENSETH_SECONDARY"
+  },
+  {
+    "base": "2015_ANNETT",
+    "display_name": "Michael Annett",
+    "name_candidates": [
+      "Michael Annett"
+    ],
+    "number": "46",
+    "slot": "LIVERY_15_46_MICHAEL_ANNETT_PRIMARY.ARC",
+    "profile_id": 23219,
+    "handle": "MichaelAnnett",
+    "config_uid": 25155,
+    "driver_uid": 22986,
+    "driver_token": "S_DRIVER_M_ANNETT",
+    "team_uid": 25381,
+    "db_livery_script": "15_46_MICHAEL_ANNETT_PRIMARY"
+  },
+  {
+    "base": "2015_MCDOWELL",
+    "display_name": "Michael McDowell",
+    "name_candidates": [
+      "Michael McDowell"
+    ],
+    "number": "95",
+    "slot": "LIVERY_15_95_MICHAEL_MCDOWELL_PRIMARY.ARC",
+    "profile_id": 3258,
+    "handle": "Mc_Driver",
+    "config_uid": 25127,
+    "driver_uid": 1400,
+    "driver_token": "S_DRIVER_M_MCDOWELL",
+    "team_uid": 8739,
+    "db_livery_script": "15_95_MICHAEL_MCDOWELL_PRIMARY"
+  },
+  {
+    "base": "2015_WALTRIP",
+    "display_name": "Michael Waltrip",
+    "name_candidates": [
+      "Michael Waltrip"
+    ],
+    "number": "66",
+    "slot": "LIVERY_15_66_MICHAEL_WALTRIP_PRIMARY.ARC",
+    "profile_id": 3372,
+    "handle": "MW55",
+    "config_uid": 25146,
+    "driver_uid": 1141,
+    "driver_token": "S_DRIVER_M_WALTRIP",
+    "team_uid": 1354,
+    "db_livery_script": "15_66_MICHAEL_WALTRIP_PRIMARY"
+  },
+  {
+    "base": "2015_MENARD",
+    "display_name": "Paul Menard",
+    "name_candidates": [
+      "Paul Menard"
+    ],
+    "number": "27",
+    "slot": "LIVERY_15_27_PAUL_MENARD_PRIMARY.ARC",
+    "profile_id": 3266,
+    "handle": "RCR27PMenard",
+    "config_uid": 25151,
+    "driver_uid": 1123,
+    "driver_token": "S_DRIVER_P_MENARD",
+    "team_uid": 1333,
+    "db_livery_script": "15_27_PAUL_MENARD_PRIMARY"
+  },
+  {
+    "base": "2015_SMITHREGAN",
+    "display_name": "Regan Smith",
+    "name_candidates": [
+      "Regan Smith"
+    ],
+    "number": "7",
+    "slot": "LIVERY_15_7_REGAN_SMITH_PRIMARY.ARC",
+    "profile_id": 3262,
+    "handle": "ReganSmith",
+    "config_uid": 25253,
+    "driver_uid": 1134,
+    "driver_token": "S_DRIVER_R_SMITH",
+    "team_uid": 5762,
+    "db_livery_script": "15_7_REGAN_SMITH_PRIMARY"
+  },
+  {
+    "base": "2015_STENHOUSE",
+    "display_name": "Ricky Stenhouse Jr.",
+    "name_candidates": [
+      "Ricky Stenhouse Jr.",
+      "Ricky Stenhouse Jr",
+      "Ricky Stenhouse"
+    ],
+    "number": "17",
+    "slot": "LIVERY_15_17_RICKY_STENHOUSE_PRIMARY.ARC",
+    "profile_id": 12391,
+    "handle": "StenhouseJr",
+    "config_uid": 25248,
+    "driver_uid": 7175,
+    "driver_token": "S_DRIVER_R_STENHOUSE_JR",
+    "team_uid": 1331,
+    "db_livery_script": "15_17_RICKY_STENHOUSE_PRIMARY"
+  },
+  {
+    "base": "2015_BLANEYRYAN",
+    "display_name": "Ryan Blaney",
+    "name_candidates": [
+      "Ryan Blaney"
+    ],
+    "number": "21",
+    "slot": "LIVERY_15_21_RYAN_BLANEY_PRIMARY.ARC",
+    "profile_id": 25465,
+    "handle": "Blaney",
+    "config_uid": 25380,
+    "driver_uid": 25376,
+    "driver_token": "S_DRIVER_R_BLANEY",
+    "team_uid": 1341,
+    "db_livery_script": "15_21_RYAN_BLANEY_PRIMARY"
+  },
+  {
+    "base": "2015_NEWMAN",
+    "display_name": "Ryan Newman",
+    "name_candidates": [
+      "Ryan Newman"
+    ],
+    "number": "31",
+    "slot": "LIVERY_15_31_RYAN_NEWMAN_PRIMARY.ARC",
+    "profile_id": 3253,
+    "handle": "RyanJNewman",
+    "config_uid": 25195,
+    "driver_uid": 1127,
+    "driver_token": "S_DRIVER_R_NEWMAN",
+    "team_uid": 1333,
+    "db_livery_script": "15_31_RYAN_NEWMAN_PRIMARY"
+  },
+  {
+    "base": "2015_HORNISH_JR",
+    "display_name": "Sam Hornish Jr.",
+    "name_candidates": [
+      "Sam Hornish Jr.",
+      "Sam Hornish Jr",
+      "Sam Hornish"
+    ],
+    "number": "9",
+    "slot": "LIVERY_15_9_SAM_HORNISH_JR_PRIMARY.ARC",
+    "profile_id": 13107,
+    "handle": "SamHornish",
+    "config_uid": 25379,
+    "driver_uid": 1109,
+    "driver_token": "S_DRIVER_S_HORNISH_JR",
+    "team_uid": 1325,
+    "db_livery_script": "15_9_SAM_HORNISH_JR_PRIMARY"
+  },
+  {
+    "base": "2015_STEWART",
+    "display_name": "Tony Stewart",
+    "name_candidates": [
+      "Tony Stewart"
+    ],
+    "number": "14",
+    "slot": "LIVERY_15_14_TONY_STEWART_PRIMARY.ARC",
+    "profile_id": 3239,
+    "handle": "TonyStewart",
+    "config_uid": 25199,
+    "driver_uid": 1136,
+    "driver_token": "S_DRIVER_T_STEWART",
+    "team_uid": 1351,
+    "db_livery_script": "15_14_TONY_STEWART_PRIMARY"
+  },
+  {
+    "base": "2015_BAYNE",
+    "display_name": "Trevor Bayne",
+    "name_candidates": [
+      "Trevor Bayne"
+    ],
+    "number": "6",
+    "slot": "LIVERY_15_6_TREVOR_BAYNE_PRIMARY.ARC",
+    "profile_id": 6921,
+    "handle": "TBayne6",
+    "config_uid": 25169,
+    "driver_uid": 5766,
+    "driver_token": "S_DRIVER_T_BAYNE",
+    "team_uid": 1331,
+    "db_livery_script": "15_6_TREVOR_BAYNE_PRIMARY"
+  },
+  {
+    "base": "2015_DILLONTY",
+    "display_name": "Ty Dillon",
+    "name_candidates": [
+      "Ty Dillon"
+    ],
+    "number": "33",
+    "slot": "LIVERY_15_33_TY_DILLON_PRIMARY.ARC",
+    "profile_id": 25464,
+    "handle": "RCR3TDillon",
+    "config_uid": 25378,
+    "driver_uid": 25375,
+    "driver_token": "S_DRIVER_T_DILLON",
+    "team_uid": 1333,
+    "db_livery_script": "15_33_TY_DILLON_PRIMARY"
+  }
+]

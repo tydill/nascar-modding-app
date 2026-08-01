@@ -1,0 +1,170 @@
+[
+ {
+  "uid": 1325,
+  "token": "S_TEAM_RPM_01",
+  "manufacturer_uid": 1015,
+  "manufacturer_token": "S_MANU_FORD",
+  "twitter": "RPMotorsports"
+ },
+ {
+  "uid": 1326,
+  "token": "S_TEAM_JTGDR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "NASCAR47"
+ },
+ {
+  "uid": 1327,
+  "token": "S_TEAM_FRM",
+  "manufacturer_uid": 1015,
+  "manufacturer_token": "S_MANU_FORD",
+  "twitter": "FrontRowNASCAR"
+ },
+ {
+  "uid": 1331,
+  "token": "S_TEAM_RFR",
+  "manufacturer_uid": 1015,
+  "manufacturer_token": "S_MANU_FORD",
+  "twitter": "roushfenway"
+ },
+ {
+  "uid": 1333,
+  "token": "S_TEAM_RCR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "RCRracing"
+ },
+ {
+  "uid": 1335,
+  "token": "S_TEAM_JGR",
+  "manufacturer_uid": 1078,
+  "manufacturer_token": "S_MANU_TOYOTA",
+  "twitter": "joegibbsracing"
+ },
+ {
+  "uid": 1336,
+  "token": "S_TEAM_PR_01",
+  "manufacturer_uid": 1074,
+  "manufacturer_token": "S_MANU_DODGE",
+  "twitter": "penskeracing"
+ },
+ {
+  "uid": 1340,
+  "token": "S_TEAM_HM",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "TeamHendrick"
+ },
+ {
+  "uid": 1341,
+  "token": "S_TEAM_WBR",
+  "manufacturer_uid": 1015,
+  "manufacturer_token": "S_MANU_FORD",
+  "twitter": "woodbrothers21"
+ },
+ {
+  "uid": 1347,
+  "token": "S_TEAM_TBR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "TBR_Racing"
+ },
+ {
+  "uid": 1349,
+  "token": "S_TEAM_EGR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "EGRTeams"
+ },
+ {
+  "uid": 1350,
+  "token": "S_TEAM_NM",
+  "manufacturer_uid": 1078,
+  "manufacturer_token": "S_MANU_TOYOTA",
+  "twitter": ""
+ },
+ {
+  "uid": 1351,
+  "token": "S_TEAM_SHR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "StewartHaasRcng"
+ },
+ {
+  "uid": 1352,
+  "token": "S_TEAM_GR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "GermainRacing"
+ },
+ {
+  "uid": 1354,
+  "token": "S_TEAM_MWR",
+  "manufacturer_uid": 1078,
+  "manufacturer_token": "S_MANU_TOYOTA",
+  "twitter": "MWRteam"
+ },
+ {
+  "uid": 1355,
+  "token": "S_TEAM_FRR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "FR78Racing"
+ },
+ {
+  "uid": 5762,
+  "token": "S_TEAM_JRM",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "JRMotorsports"
+ },
+ {
+  "uid": 8739,
+  "token": "S_TEAM_LFR",
+  "manufacturer_uid": 1015,
+  "manufacturer_token": "S_MANU_FORD",
+  "twitter": "LeavineFamily95"
+ },
+ {
+  "uid": 10518,
+  "token": "S_TEAM_BKRACING",
+  "manufacturer_uid": 1078,
+  "manufacturer_token": "S_MANU_TOYOTA",
+  "twitter": "BKRacing8393"
+ },
+ {
+  "uid": 11444,
+  "token": "S_TEAM_PARSONS",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "PPR98"
+ },
+ {
+  "uid": 21845,
+  "token": "S_TEAM_SWAN_RACING",
+  "manufacturer_uid": 1078,
+  "manufacturer_token": "S_MANU_TOYOTA",
+  "twitter": "SwanRacingCo"
+ },
+ {
+  "uid": 22932,
+  "token": "S_TEAM_HR",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "Hillman_Racing"
+ },
+ {
+  "uid": 23035,
+  "token": "S_TEAM_PHLLC",
+  "manufacturer_uid": 1015,
+  "manufacturer_token": "S_MANU_FORD",
+  "twitter": ""
+ },
+ {
+  "uid": 24588,
+  "token": "S_TEAM_XXXTREME",
+  "manufacturer_uid": 1076,
+  "manufacturer_token": "S_MANU_CHEVROLET",
+  "twitter": "Xxxtremeracing"
+ }
+]

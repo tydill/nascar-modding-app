@@ -1,0 +1,5 @@
+KNOWN LIMITATIONS — NASCAR MODDING APP v1.0.2
+
+- Creating additional paint schemes on custom teams is not supported yet.
+- Custom championship points and longer or shorter championship seasons are not enabled yet.
+- Some game assets do not have a structurally safe replacement path and remain read-only.
